@@ -28,7 +28,7 @@ function btnStopHandler() {
 
 function changeColorHandler() {
   document.body.style.backgroundColor =
-    colors[randomIntegerFromInterval(0, colors.length)];
+    colors[randomIntegerFromInterval(0, colors.length - 1)];
 }
 
 const randomIntegerFromInterval = (min, max) => {
